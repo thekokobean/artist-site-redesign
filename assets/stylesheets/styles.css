@@ -1,0 +1,244 @@
+@font-face { font-family: 'Open Sans'; font-style: normal;  font-weight: 100;
+            src: local('./assets⁩/fonts⁩/open-sans'), local('OpenSans-Regular'),
+            url('./assets/fonts/open-sans/OpenSans-Regular.ttf') format('ttf'),
+}
+
+
+body {
+  font-family: 'Open Sans',sans-serif;
+  font-size: 13px;
+}
+
+.body {
+  background-color: #E55583;
+}
+
+.topnav {
+  overflow: hidden;
+  background: #E55583;
+  font-family: sans-serif;
+  font-size: 13px;
+}
+
+.topnav a {
+  float: left;
+  color: #f5f5f5;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 13px;
+}
+
+.topnav a:hover {
+  background-color: #ff7bab;
+  color: f5f5f5;
+}
+
+.topnav a.active {
+  background-color:;
+  color: f5f5f5;
+}
+
+.topnav-right {
+  float: right;
+}
+
+.tour-list {
+
+}
+
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: #E55583;
+   color: f5f5f5;
+   text-align: auto;
+   font-family: sans-serif;
+}
+
+.footer a {
+  color: #f5f5f5;
+  text-decoration: none;
+}
+
+.sticky {
+  position: relative;
+  top: 0;
+  width: 100%;
+}
+
+.ybt-copyright {
+  float: left;
+  padding: 20px;
+}
+
+.social-media-links {
+  float: right;
+}
+
+li {
+  list-style: none;
+  margin: 10px;
+  padding: 10px;
+  display: inline-block;
+  align: right;
+}
+
+i {
+  width: 15px;
+}
+
+.about-table {
+  width: 500px;
+  display: inline-block;
+}
+
+.tour-list {
+  background-color: none;
+  display: table;
+  padding-bottom: 50px;
+}
+
+.albums-grid {
+  padding: 10px;
+  padding-bottom: 85px;
+  border-width: medium;
+  border-color: #f5f5f5;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #ffffff;
+  padding: 0px;
+  font-family: sans-serif;
+}
+
+/* Center website */
+.main {
+  max-width: auto;
+  margin: auto;
+}
+
+.row {
+  margin: 10px -16px;
+}
+
+/* Add padding BETWEEN each column */
+.row,
+.row > .column {
+  padding: 10px;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 22%;
+  display: none; /* Hide all elements by default */
+}
+
+/* Clear floats after rows */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content {
+  background-color: white;
+  align-content: center;
+  padding: 10px;
+  width: 220px;
+  margin: 10px;
+  text-align: center;
+}
+
+/* The "show" class is added to the filtered elements */
+.show {
+  display: block;
+}
+
+/* Style the buttons */
+.btn {
+  border: none;
+  outline: none;
+  padding: 12px 16px;
+  background-color: #ff7bab;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #E55583;
+  color: #f5f5f5;
+}
+
+.lightbox-link {
+    width: 100%;
+    max-width: 250px;
+    height: auto;
+    display: block;
+    padding: 0 10px;
+    margin: 0 auto 10px;
+  }
+
+.img-responsive {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+
+.media-photos {
+  display:block;
+}
+
+.items {
+  padding-bottom: 50px;
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial;
+  font-size: 13px;
+}
+
+#myVideo {
+  position: relative;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+.content {
+  position: fixed;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+}
+
+#myBtn {
+  width: 200px;
+  font-size: 18px;
+  padding: 10px;
+  border: none;
+  background: #000;
+  color: #fff;
+  cursor: pointer;
+}
+
+#myBtn:hover {
+  background: #ddd;
+  color: black;
+}
